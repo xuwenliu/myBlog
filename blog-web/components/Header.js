@@ -14,19 +14,23 @@ const Header = () => {
                     <span className="header-logo">xuwenliu</span>
                     <span className="header-txt">专注前端开发。</span>
                 </Col>
-                <Col className="memu-div" xs={0} sm={0} md={14} lg={8} xl={6}>
+                <Col className="memu-div" xs={0} sm={0} md={14} lg={8} xl={8}>
                     <Menu mode="horizontal">
                         <Menu.Item key="home">
                             <Icon type="home" />
-                            首页
+                            Home
                         </Menu.Item>
-                        <Menu.Item key="video">
+                        <Menu.Item key="article">
                             <Icon type="read" />
-                            文章
+                            Article
                         </Menu.Item>
                         <Menu.Item key="life">
                             <Icon type="smile" />
-                            生活
+                            Life
+                        </Menu.Item>
+                        <Menu.Item key="about">
+                            <Icon type="user" />
+                            About
                         </Menu.Item>
                     </Menu>
                 </Col>
